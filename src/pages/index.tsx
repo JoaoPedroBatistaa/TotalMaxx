@@ -8,6 +8,7 @@ export default function Home() {
         <div className='ImageContainer'>
           <img className='logo' src="/logo.png" alt="logo" />
         </div>
+        teste
         <div className='LoginContainer'></div>
       </div>
     </>
