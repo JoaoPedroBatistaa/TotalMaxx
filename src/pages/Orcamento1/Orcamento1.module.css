@@ -1,0 +1,26 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo {
+    margin-top: 36px;
+    margin-left: 40px;
+    height: 150.43px;
+    width: 189.7px;
+}
+
+.MenuLateral {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 1024;
+    background-color: #F6F7FA;
+    color: #404049;
+}
+
+
+

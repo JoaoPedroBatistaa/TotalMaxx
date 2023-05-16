@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 import Login from '../components/Login';
+import Orcamento1 from './Orcamento1';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
 
       <Login></Login>
+      <Orcamento1></Orcamento1>
     </>
   )
 }
