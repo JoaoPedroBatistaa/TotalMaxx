@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Outfit&display=swap');
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo {
+    margin-top: 36px;
+    margin-left: 40px;
+    height: 150.43px;
+    width: 189.7px;
+}
+
+.MenuLateral {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 1024;
+    background-color: #F6F7FA;
+    color: #404049;
+}
+
+.titleMenu{
+    font-family: "DM Sans";
+    font-size: 12px;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+}
+
+.listElement{
+    padding: 16px 24px;
+}
+
+.listElement:hover{
+    padding: 16px 24px;
+    background-color: #7C00000D;
+    color: #7C0000;
+}
+
+.linha {
+    border: none;
+    height: 1px;
+    background-color: #ECECF0;
+    margin-bottom: 24px;
+}
+
