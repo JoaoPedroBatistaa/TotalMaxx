@@ -1,0 +1,96 @@
+.Container{
+    position: absolute;
+    top: 0;
+    margin-left: 15%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #7C0000;
+    padding: 25px;
+    width: 100%;
+}
+
+.listContainer{
+    margin-left: 20px;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+}
+
+.List{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    color: #404049;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.listElement{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.listOrc{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.valorTotal{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.Linha {
+    border: none;
+    height: 1px;
+    background-color: #C6C2DE;
+    margin-bottom: 24px;
+}
+
+.formContainer{
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+
+.Form2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.label {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: medium;
+    color: #000;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.field {
+    color: #000;
+    width: 27.6em;
+    height: 2.7rem;
+    border-radius: 5px;
+    background-color: #F6F7FA;
+    border: solid 1px #40404941;
+    margin-bottom: 20px;
+}

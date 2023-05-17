@@ -43,7 +43,7 @@ export default function Menu() {
                     <div className={styles.linha}></div>
 
                     <ul className={styles.list}>
-                        <li className={styles.listElement}><Link href="/">Encerrar Sessão </Link><img src="Encerrar.png" alt="Encerrar"></img></li>
+                        <li className={styles.listEncerrar}><Link href="/">Encerrar Sessão </Link><img src="Encerrar.png" alt="Encerrar"></img></li>
                     </ul>
 
                 </div>
