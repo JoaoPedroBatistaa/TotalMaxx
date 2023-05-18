@@ -12,13 +12,15 @@ function Orcamento1() {
         <div className={styles.Container}>
             <div className={styles.Header}>
                 <p>VISUALIZAR ORÇAMENTO</p>
-                <img src="X.png" alt="Fechar"></img>
+                <Link href='/'><img src="X.png" alt="Fechar"></img></Link>
             </div>
             
             <div className={styles.listContainer}>
                 <ul  className={styles.List}>
                     <li className={styles.listElement}>Dados do cliente</li>
-                    <li className={styles.listOrc}>Orçamento</li>
+                    <Link href='/Orcamento2'>
+                        <li className={styles.listOrc}>Orçamento</li>
+                    </Link>
                     <li className={styles.valorTotal}>Valor total: R$1.350,00</li>
                 </ul>
                 <div className={styles.Linha}></div>
@@ -35,6 +37,9 @@ function Orcamento1() {
                             <input className={styles.field} type="email" />
                         </div>
                 </div>
+            </div>
+            <div className={styles.Footer}>
+                <p>© Total Maxx 2023, todos os direitos reservados</p>
             </div>
         </div>
     </>

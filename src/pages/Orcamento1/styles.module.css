@@ -20,6 +20,17 @@
     width: 100%;
 }
 
+.Footer{
+    margin-top: 34%;
+    font-family: 'DM Sans' ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #404049;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .listContainer{
     margin-left: 20px;
     width: 97%;
@@ -48,6 +59,9 @@
 }
 
 .valorTotal{
+    font-size: 20px;
+    font-weight: 600;
+    color: #7C0000;
     margin-left: auto;
     margin-right: 30px;
 }

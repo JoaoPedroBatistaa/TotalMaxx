@@ -1,0 +1,202 @@
+.Container{
+    position: absolute;
+    top: 0;
+    margin-left: 15%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #7C0000;
+    padding: 25px;
+    width: 100%;
+}
+
+.Footer{
+    font-family: 'DM Sans' ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #404049;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.listContainer{
+    margin-left: 20px;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+}
+
+.List{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    color: #404049;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.listElement{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.listOrc{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.valorTotal{
+    font-size: 20px;
+    font-weight: 600;
+    color: #7C0000;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.Linha {
+    border: none;
+    height: 1px;
+    background-color: #C6C2DE;
+    margin-bottom: 24px;
+}
+
+.formContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Form{
+    background-color: #F6F7FA;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form2{
+    background-color: #F6F7FA;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form3{
+    background-color: #F6F7FA;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form4{
+    width: 35%;
+    margin-left: 30px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.label2{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #404049;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.Obeservacao{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #404049;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.label3{
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 500;
+    color: #888990;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloco{
+    margin-left: 10px;
+}
+
+.preco{
+    color: #222222;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    margin-left: 55px;
+}
+
+.Valor{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 20%;
+    text-align: left;
+}
+.whats{
+    font-family: 'DM sans';
+    font-size: 20px;
+    font-weight: 700;
+    padding: 50px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0BB07B;
+    border-radius: 10px;
+}
+
+.pdf{
+    color: #404049;
+    font-family: 'DM sans';
+    font-size: 20px;
+    font-weight: 700;
+    padding: 50px 120px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DEE2ED;
+    border-radius: 10px;
+}
